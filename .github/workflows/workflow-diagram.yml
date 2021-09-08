@@ -3,10 +3,10 @@ on:
   workflow_dispatch: {}
   push:
     should_push: false
-  commit:
-    should_push: false
-    # branches:
-    #   - main
+  # commit:
+  #   should_push: false
+  # branches:
+  #   - main
   pull_request:
     branches:
       - main
@@ -27,5 +27,3 @@ jobs:
         with:
           name: "my-diagram"
           path: "downloads"
-      - name: "Echo download path"
-        run: echo ${{steps.make_diagram.outputs.download-path}}
