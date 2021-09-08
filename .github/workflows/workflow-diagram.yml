@@ -22,3 +22,5 @@ jobs:
         with:
           name: "my-diagram"
           path: "downloads"
+      - name: "Echo download path"
+        run: echo ${{steps.make_diagram.outputs.download-path}}
