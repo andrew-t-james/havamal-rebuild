@@ -3,6 +3,8 @@ on:
   workflow_dispatch: {}
   push:
     should_push: false
+  commit:
+    should_push: false
     # branches:
     #   - main
   pull_request:
