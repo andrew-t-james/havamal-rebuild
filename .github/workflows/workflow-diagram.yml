@@ -2,9 +2,9 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
+    - should_push: false
     branches:
       - main
-      - should_push: false
 jobs:
   get_data:
     runs-on: ubuntu-latest
