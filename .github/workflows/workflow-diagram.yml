@@ -2,7 +2,7 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
-    should_push: false
+    # should_push: false
     branches:
       - main
 jobs:
