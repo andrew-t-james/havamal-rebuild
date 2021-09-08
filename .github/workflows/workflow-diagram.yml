@@ -15,3 +15,10 @@ jobs:
         with:
           output_file: "./workflow-diagram.svg"
           excluded_paths: ".github"
+          artifact_name: "havamal-diagram"
+      - name: Get artifact
+        should_push: false
+        uses: actions/download-artifact@v2
+        with:
+          name: "havamal-diagram"
+          path: "downloads"
