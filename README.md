@@ -1,5 +1,5 @@
 [![Netlify Status](https://api.netlify.com/api/v1/badges/e9457660-cd47-47cc-a30c-fb92560a7bb1/deploy-status)](https://app.netlify.com/sites/havamal-rebuild-test/deploys)
-![example workflow](https://github.com/andrew-t-james/havamal-rebuild/actions/workflows/workflows-diagram.yml/badge.svg)
+![example workflow](https://github.com/andrew-t-james/havamal-rebuild/actions/workflows/workflow-diagram.yml/badge.svg)
 
 <p align="center">
   <a href="https://havamalband.com/">
