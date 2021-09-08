@@ -1,12 +1,6 @@
 name: Create diagram
 on:
   workflow_dispatch: {}
-  # push:
-  # should_push: false
-  # commit:
-  #   should_push: false
-  # branches:
-  #   - main
   pull_request:
     branches:
       - main
@@ -22,8 +16,4 @@ jobs:
         with:
           output_file: "output-diagram.svg"
           artifact_name: "my-diagram"
-      - name: Get artifact
-        uses: actions/download-artifact@v2
-        with:
-          name: "my-diagram"
-          path: "downloads"
+        should_push: false
