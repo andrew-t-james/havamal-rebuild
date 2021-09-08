@@ -1,8 +1,8 @@
 name: Create diagram
 on:
   workflow_dispatch: {}
-  push:
-    should_push: false
+  # push:
+  # should_push: false
   # commit:
   #   should_push: false
   # branches:
