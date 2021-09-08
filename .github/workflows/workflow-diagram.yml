@@ -2,11 +2,12 @@ name: Create diagram
 on:
   workflow_dispatch: {}
   push:
-    # should_push: false
+    should_push: false
+    # branches:
+    #   - main
+  pull_request:
     branches:
       - main
-  commit:
-    should_push: false
 jobs:
   get_data:
     runs-on: ubuntu-latest
